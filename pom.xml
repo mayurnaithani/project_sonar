@@ -66,6 +66,7 @@
                 <forkCount>1</forkCount>
                 <argLine>jaCoCoArgLine -Xmx256m </argLine>
                 <reuseForks>true</reuseForks>
+                <testFailureIgnore>true</testFailureIgnore>
             </configuration>
         </plugin>
       </plugins>
