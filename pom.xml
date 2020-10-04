@@ -64,7 +64,7 @@
                 <printSummary>false</printSummary>
                 <redirectTestOutputToFile>true</redirectTestOutputToFile>
                 <forkCount>1</forkCount>
-                <argLine>jaCoCoArgLine -Xmx1024m </argLine>
+                <argLine>jaCoCoArgLine -Xmx512m </argLine>
                 <reuseForks>true</reuseForks>
             </configuration>
         </plugin>
