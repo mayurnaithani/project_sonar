@@ -9,7 +9,7 @@ pipeline{
                       script{
 			      withSonarQubeEnv('sonarserver') { 
 				  withMaven(maven: 'maven3') {
-			      sh "mvn clean install"
+			      sh "mvn verify"
 			      //sh "mvn jacoco:prepare-agent"
 			      //sh "mvn jacoco:report"
 			      sh "mvn sonar:sonar -Dsonar.projectKey=test-project"
